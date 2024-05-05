@@ -3,7 +3,7 @@ module.exports = {
 
     // Game server domain.
     // If 'localhost:NUMBER', the port must equal the port setting.
-    host: "https://aps-plus-plus-6wn4.onrender.com",
+    host: "https://arras-server-test.onrender.com",
 
     // Which port to run the web server on.
     port: 80,
