@@ -224,6 +224,7 @@ module.exports = {
         [1, "icosahedron"],
       ],
     ],
+    [0.000005, [1, "test"]],
   ],
 
   // The possible nest food types that can spawn.
