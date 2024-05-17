@@ -171,7 +171,7 @@ module.exports = {
       ],
     ],
     [
-      0.1,
+      0.01,
       [
         [6836, "jewel"],
         [1296, "legendarySquare"],
