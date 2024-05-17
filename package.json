@@ -11,6 +11,7 @@
     "build": "node standaloneClient/build minify"
   },
   "dependencies": {
+    "package.json": "^2.0.1",
     "ws": "^8.13.0"
   },
   "engines": {
