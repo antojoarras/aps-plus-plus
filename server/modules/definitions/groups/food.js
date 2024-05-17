@@ -140,8 +140,9 @@ const { basePolygonDamage, basePolygonHealth } = require("../constants.js"),
     return {
       PARENT: "food",
       LABEL:
-        ["", "Beta ", "Alpha ", "Omega ", "Gamma ", "Delta "][level] +
-        type.LABEL,
+        ["", "Beta ", "Alpha ", "Omega ", "Gamma ", "Delta ", "Untouch"][
+          level
+        ] + type.LABEL,
       VALUE: type.VALUE * strenghtMultiplier,
       SHAPE: type.SHAPE,
       SIZE:
