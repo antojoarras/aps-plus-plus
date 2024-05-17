@@ -652,7 +652,7 @@ module.exports = {
     reload: 0.5,
     recoil: 1.3,
     health: 4,
-    damage: 4,
+    damage: 10000,
     pen: 4,
     speed: 3,
     maxSpeed: 2,
