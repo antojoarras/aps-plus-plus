@@ -23,7 +23,7 @@ module.exports = {
 
   // The \modules\setup\gamemodeconfigs\ files to load.
   // To change specific things about specific gamemodes (such as team count for tdm), edit their config file in \modules\setup\gamemodeconfigs\.
-  GAME_MODES: ["tdm", "domination"],
+  GAME_MODES: ["tdm"],
 
   // The room files to load in the setup/rooms folder.
   // NOTE: If a /gamemodeconfig/ file "replaces" the value of ROOM_SETUP, it just adds its own ROOM_SETUP's content to this array.
@@ -106,7 +106,7 @@ module.exports = {
   LEVEL_CHEAT_CAP: 45,
 
   // Amount of player-bots to spawn.
-  BOTS: 0,
+  BOTS: 1,
 
   // How much XP player-bots get per second until they reach LEVEL_CAP.
   BOT_XP: 125,
@@ -121,7 +121,7 @@ module.exports = {
   BOT_CLASS_UPGRADE_CHANCES: [1, 5, 20, 37, 37],
 
   // The prefix of the bot's name.
-  BOT_NAME_PREFIX: "[AI] ",
+  BOT_NAME_PREFIX: "The choosen one",
 
   // The class that players and player-bots spawn as.
   SPAWN_CLASS: "basic",
@@ -213,7 +213,7 @@ module.exports = {
       ],
     ],
     [
-      0.0001,
+      0.00001,
       [
         [100000, "sphere"],
         [10000, "cube"],
