@@ -58,7 +58,7 @@ module.exports = {
   WELCOME_MESSAGE:
     "You have spawned! Welcome to the game.\n" +
     "You will be invulnerable until you move or shoot.\n" +
-    "Please report any bugs you encounter!\n" +
+    "IF screen looks weird press f11 2 times.\n" +
     "The dev tank will be for everyone until 1 September!",
 
   // How long a popup message lasts before fading out in milliseconds.
