@@ -485,6 +485,12 @@ Class.sphere = {
     },
   ],
 };
+Class.shinySphere = makeRare("sphere", 0);
+Class.legendaryShpere = makeRare("sphere", 1);
+Class.shadowSphere = makeRare("sphere", 2);
+Class.rainbowSphere = makeRare("sphere", 3);
+Class.transSphere = makeRare("sphere", 4);
+
 Class.cube = {
   PARENT: "food",
   LABEL: "The Cube",

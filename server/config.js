@@ -224,6 +224,25 @@ module.exports = {
         [1, "icosahedron"],
       ],
     ],
+    [
+      99999999999999999999999,
+      [
+        [
+          1,
+          "sphere",
+          1,
+          "shinySphere",
+          1,
+          "legendaryShpere",
+          1,
+          "shadowSphere",
+          1,
+          "rainbowSphere",
+          1,
+          "transSphere",
+        ],
+      ],
+    ],
     [0.000005, [[1, "test"]]],
   ],
 
