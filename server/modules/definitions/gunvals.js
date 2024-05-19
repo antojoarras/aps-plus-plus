@@ -8,6 +8,15 @@ module.exports = {
     speed: 4.5,
     spray: 15,
   },
+  testt: {
+    reload: 2,
+    recoil: 1000,
+    shudder: 0.1,
+    size: 10,
+    damage: 100,
+    speed: 2,
+    spray: 1,
+  },
   drone: {
     reload: 36,
     recoil: 0.25,

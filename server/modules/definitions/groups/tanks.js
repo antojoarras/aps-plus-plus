@@ -58,6 +58,20 @@ Class.basic = {
     },
   ],
 };
+Class.testt = {
+  PARENT: "genericTank",
+  LABEL: "Test lmao",
+  GUNS: [
+    {
+      /* LENGTH  WIDTH   ASPECT    X       Y     ANGLE   DELAY */
+      POSITION: [18, 10, -1.4, 0, 0, 0, 0],
+      PROPERTIES: {
+        SHOOT_SETTINGS: combineStats([g.basic, g.testt]),
+        TYPE: "trap",
+      },
+    },
+  ],
+};
 Class.twin = {
   PARENT: "genericTank",
   LABEL: "Twin",
@@ -4263,6 +4277,7 @@ Class.basic.UPGRADES_TIER_1 = [
   "pounder",
   "trapper",
   "desmos",
+  "testt",
 ];
 Class.basic.UPGRADES_TIER_2 = ["smasher"];
 Class.smasher.UPGRADES_TIER_3 = [
