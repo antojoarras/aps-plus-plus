@@ -152,7 +152,6 @@ module.exports = {
     [
       2000,
       [
-        [2028, "test"],
         [1024, "egg"],
         [256, "square"],
         [64, "triangle"],
