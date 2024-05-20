@@ -20,6 +20,38 @@ const g = require("../gunvals.js");
 require("./tanks.js");
 
 // Menus
+Class.sub_special = {
+  PARENT: "genericTank",
+  LABEL: "Special_tank",
+  BODY: {
+    SHIELD: 1000,
+    REGEN: 10,
+    HEALTH: 100,
+    DAMAGE: 10e5,
+    DENSITY: 20,
+    FOV: 1.25,
+  },
+  SKILL_CAP: Array(10).fill(dfltskl),
+  IGNORED_BY_AI: true,
+  RESET_CHILDREN: true,
+  ACCEPTS_SCORE: true,
+  CAN_BE_ON_LEADERBOARD: true,
+  CAN_GO_OUTSIDE_ROOM: false,
+  DRAW_HEALTH: true,
+  ARENA_CLOSER: true,
+  BODY: {
+    FOV: 1,
+  },
+  GUNS: [
+    {
+      POSITION: [18, 10, -1.4, 0, 0, 0, 0],
+      PROPERTIES: {
+        SHOOT_SETTINGS: combineStats([g.basic, g.op]),
+        TYPE: "bullet",
+      },
+    },
+  ],
+};
 Class.special = {
   PARENT: "genericTank",
   LABEL: "Special_tank",
@@ -52,5 +84,4 @@ Class.special = {
     },
   ],
 };
-
 Class.special.UPGRADES_TIER_0 = [["sub_special", "sub_special"]];
