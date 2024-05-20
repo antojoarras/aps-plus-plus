@@ -39,6 +39,9 @@ Class.special = {
   CAN_GO_OUTSIDE_ROOM: false,
   DRAW_HEALTH: true,
   ARENA_CLOSER: true,
+  BODY: {
+    FOV: 1,
+  },
   GUNS: [
     {
       POSITION: [18, 10, -1.4, 0, 0, 0, 0],
@@ -50,4 +53,4 @@ Class.special = {
   ],
 };
 
-Class.special.UPGRADES_TIER_0 = [];
+Class.special.UPGRADES_TIER_0 = [["sub_special", "sub_special"]];

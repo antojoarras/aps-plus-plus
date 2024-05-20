@@ -23,7 +23,7 @@ module.exports = {
 
   // The \modules\setup\gamemodeconfigs\ files to load.
   // To change specific things about specific gamemodes (such as team count for tdm), edit their config file in \modules\setup\gamemodeconfigs\.
-  GAME_MODES: ["tdm", "nexus"],
+  GAME_MODES: ["manhunt", "growth"],
 
   // The room files to load in the setup/rooms folder.
   // NOTE: If a /gamemodeconfig/ file "replaces" the value of ROOM_SETUP, it just adds its own ROOM_SETUP's content to this array.
@@ -107,7 +107,7 @@ module.exports = {
   LEVEL_CHEAT_CAP: 45,
 
   // Amount of player-bots to spawn.
-  BOTS: 1,
+  BOTS: 30,
 
   // How much XP player-bots get per second until they reach LEVEL_CAP.
   BOT_XP: 125,
