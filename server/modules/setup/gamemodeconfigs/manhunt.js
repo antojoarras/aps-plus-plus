@@ -1,5 +1,5 @@
 module.exports = {
     MODE: "tdm",
     HUNT: true,
-    TEAMS: Math.int(Math.random*3)+1
+    TEAMS: Math.floor(Math.random() *3)+1
 };
