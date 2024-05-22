@@ -21,7 +21,7 @@ Class.special = {
     CAN_BE_ON_LEADERBOARD: true,
     CAN_GO_OUTSIDE_ROOM: true,
     DRAW_HEALTH: true,
-    ARENA_CLOSER: true,
+    ARENA_CLOSER: false,
     GUNS: [
         {
             POSITION: [18, 10, -1.4, 0, 0, 0, 0],
@@ -49,7 +49,7 @@ Class.subspecial = {
   CAN_BE_ON_LEADERBOARD: true,
   CAN_GO_OUTSIDE_ROOM: true,
   DRAW_HEALTH: true,
-  ARENA_CLOSER: true,
+  ARENA_CLOSER: false,
   GUNS: [
     {
       POSITION: [18, 10, -1.4, 0, 0, 0, 0],
