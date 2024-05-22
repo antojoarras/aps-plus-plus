@@ -1,6 +1,7 @@
 module.exports = ({ Config }) => {
 	// To enable this addon, simply comment out the line below.
-	return console.log('[labyFood.js] Addon disabled by default');
+	//return console.log('[labyFood.js] Addon disabled by default');
+	console.log('[labyFood.js] Addon diablesa by default');
 
 	const disableCrashers = true
 	if (disableCrashers)  Config.ENEMY_CAP_NEST = 0;
