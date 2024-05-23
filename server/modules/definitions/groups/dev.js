@@ -181,7 +181,7 @@ let generatorMatrix = [
 gemRelicMatrix = [];
 for (let tier of [ "", "Egg", "Square", "Triangle", "Pentagon", "BetaPentagon", "AlphaPentagon" ]) {
     let row = [];
-    for (let gem of [ "Power", "Space", "Reality", "Soul", "Time", "Mind" ]) {
+    for (let gem of [ "Power", "Space", "Reality", "Soul", "Time", "Mind", "Unreality" ]) {
         row.push(gem + (tier ? tier + 'Relic' : 'Gem'));
     }
     gemRelicMatrix.push(row);
