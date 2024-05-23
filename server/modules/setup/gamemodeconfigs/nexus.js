@@ -3,5 +3,5 @@ module.exports = {
     TEAMS: 1,
     TILE_WIDTH: 200,
     TILE_HEIGHT: 200,
-    ROOM_SETUP: ['map_nexus_trplnr']
+    ROOM_SETUP: ['map_nexus_test']
 }
