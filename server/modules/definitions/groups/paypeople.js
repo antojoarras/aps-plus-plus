@@ -22,6 +22,17 @@ Class.special = {
     CAN_GO_OUTSIDE_ROOM: true,
     DRAW_HEALTH: true,
     ARENA_CLOSER: false,
+    SHAPE: [
+        [0,1],
+        [-3,3],
+        [-1,0],
+        [-3,-3],
+        [0,-1],
+        [3,-3],
+        [1,0],
+        [3,3],
+        [0,1],
+    ],
     GUNS: [
         {
             POSITION: [18, 10, -1.4, 0, 0, 0, 0],
@@ -50,6 +61,17 @@ Class.subspecial = {
   CAN_GO_OUTSIDE_ROOM: true,
   DRAW_HEALTH: true,
   ARENA_CLOSER: false,
+  SHAPE: [
+    [0,1],
+    [-3,3],
+    [-1,0],
+    [-3,-3],
+    [0,-1],
+    [3,-3],
+    [1,0],
+    [3,3],
+    [0,1],
+  ],
   GUNS: [
     {
       POSITION: [18, 10, -1.4, 0, 0, 0, 0],
