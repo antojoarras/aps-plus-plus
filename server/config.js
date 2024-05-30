@@ -175,6 +175,9 @@ module.exports = {
         ]],
         [0.0001, [
             [100000, 'sphere'], [10000, 'cube'], [1000, 'tetrahedron'], [100, 'octahedron'], [10, 'dodecahedron'], [1, 'icosahedron']
+        ]],
+        [0.00005, [
+            [1, 'imposible_1']
         ]]
     ],
 
