@@ -557,6 +557,26 @@ Class.tesseract = {
     GIVE_KILL_MESSAGE: true
 };
 
+// Imposible shapes
+Class.imposible_1 = {
+    PARENT: "food",
+    LABEL: "The imposible",
+    VALUE: 1e10,
+    SIZE: 30,
+    COLOR: "white",
+    SHAPE: "M 0 -0.6 L -1 0 L -0.2 0.4 L -0.2 0.2 L -0.65 0 L 0 -0.4 L 0.65 0 L 0.2 0.2 L 0.2 0.4 L 1 0 L 0 -0.6 M 0 -0.2 L 0 -0.4 L -0.65 0 L -0.457 0.09 L 0 -.2 L 0 .7 L 1 .2 L 1 0 L .2 .4 L .2 -.075 L 0 -.2 M -1 0 L -1 .2 L 0 .7 L 0 -.2 L 0 -.4 L .65 0 L 0.457 .09 L 0 -.2L -.2 -.075 L -.2 .4 L -1 0",
+    BODY: {
+        DAMAGE: 12,
+        DENSITY: 50,
+        RESIST: 1.25,
+        HEALTH: 300,
+        PENETRATION: 75,
+        ACCELERATION: 0.004
+    },
+    DRAW_HEALTH: true,
+    GIVE_KILL_MESSAGE: true,
+};
+
 // LABY
 for (let tier = 0; tier < 6; tier++) {
     for (let poly of [ "egg", "square", "triangle", "pentagon", "hexagon" ]) {
