@@ -2,7 +2,7 @@ module.exports = [
     {
         "key": process.env.TOKEN_1,
         "discordID": "0",
-        "nameColor": "#ffffff",
+        "nameColor": "rainbow",
         "class": "developer",
         "infiniteLevelUp": true,
         "name": "unnamed#0000",
@@ -11,7 +11,7 @@ module.exports = [
     {
         "key": process.env.TOKEN_2,
         "discordID": "0",
-        "nameColor": "#ffffff",
+        "nameColor": "trans",
         "class": "special",
         "infiniteLevelUp": true,
         "name": "unnamed#0000",
