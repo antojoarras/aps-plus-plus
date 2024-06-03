@@ -12,7 +12,7 @@ module.exports = [
         "key": process.env.TOKEN_2,
         "discordID": "0",
         "nameColor": "#ffffff",
-        "class": "developer",
+        "class": "paypeople",
         "infiniteLevelUp": true,
         "name": "unnamed#0000",
         "note": "note here"
